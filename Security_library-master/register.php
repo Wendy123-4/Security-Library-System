@@ -30,7 +30,7 @@ require('dbconn.php');
 <!-- Body -->
 <body>
 
-	<h1>LIBRARY MANAGEMENT SYSTEM</h1>
+	<h1>Wendy & David Library</h1>
 
 	<div class="">
 
@@ -40,8 +40,11 @@ require('dbconn.php');
 			<h2>Register</h2>
 			<form action="index.php" method="post">
 				<input type="text" Name="Username" placeholder="Username" required>
-				<input type="text" Name="Email" placeholder="Email" required>
-				<input type="password" Name="Password" placeholder="Password" required>
+				<input type="email" Name="Email" placeholder="Email" required>
+				<input type="password" Name="Password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+				title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+				 required>
+
 
 
 
@@ -49,7 +52,7 @@ require('dbconn.php');
 					<option value="Student">Student</option>
 					<option value="Staff and Faculty">Staff and Faculty</option>
 					<option value="Librarian">Librarian</option>
-					<option value="Admin">Admin</option>
+
 				</select>
 				<br>
 
@@ -63,6 +66,7 @@ require('dbconn.php');
 
 			<div class="clear"></div>
 		</div>
+
 
 		<div class="clear"></div>
 

@@ -30,7 +30,7 @@ require('dbconn.php');
 <!-- Body -->
 <body>
 
-	<h1>LIBRARY MANAGEMENT SYSTEM</h1>
+	<h1>Wendy & David Library</h1>
 
 	<div style="padding-left: 50px">
 

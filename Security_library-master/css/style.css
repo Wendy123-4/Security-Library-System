@@ -211,7 +211,7 @@ li.twt {
     transition: .5s all;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"], input[type="password"],input[type="email"] {
     width: 93.4%;
     margin-bottom: 20px;
     padding: 10px;
@@ -223,6 +223,8 @@ input[type="text"], input[type="password"] {
     outline: none;
     color: #FFF;
 }
+
+
 
 .send-button {
     margin-bottom: 20px;
