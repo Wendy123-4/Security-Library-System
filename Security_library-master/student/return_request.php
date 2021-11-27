@@ -9,7 +9,7 @@ $sql="insert into lms.return (Email,BookId) values ('$email','$id')";
 
 if($conn->query($sql) === TRUE)
 {
-echo "<script type='text/javascript'>alert('Request Sent to Admin.')</script>";
+echo "<script type='text/javascript'>alert('Request Sent to Librarian.')</script>";
 header( "Refresh:0.01; url=current.php", true, 303);
 }
 else
