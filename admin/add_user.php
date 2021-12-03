@@ -100,7 +100,7 @@ if ($_SESSION['Email']) {
                                         <div class="control-group">
                                             <label class="control-label" for="Password"><b>Password</b></label>
                                             <div class="controls">
-                                                <input type="text" id="Password" name="Password" placeholder="Password" class="span8" required>
+                                                <input type="password" id="Password" name="Password" placeholder="Password" class="span8" required>
                                             </div>
                                         </div>
                                         <div class="control-group">

@@ -166,7 +166,7 @@ if(isset($_POST['submit']))
     $username=$_POST['Username'];
     $password=$_POST['Password'];
     $password = stripcslashes($password);
-    $password = mysqli_real_escape_string($conn,$password)
+    $password = mysqli_real_escape_string($conn,$password);
     $password=md5($password);
     $email=$_POST['Email'];
     $role=$_POST['Role'];

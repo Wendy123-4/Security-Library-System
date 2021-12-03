@@ -167,7 +167,7 @@ if(isset($_POST['submit']))
     $year = stripcslashes($year);
     $avail = stripcslashes($avail);
     
-    $bookid = mysqli_real_escape_string($conn,$bookid)
+    $bookid = mysqli_real_escape_string($conn,$bookid);
     $title = mysqli_real_escape_string($conn,$title);
     $publisher = mysqli_real_escape_string($conn,$publisher);
     $year = mysqli_real_escape_string($conn,$year);
